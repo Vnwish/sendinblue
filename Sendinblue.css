@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+header{
+    /* border: 2px solid black; */
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+            
+    padding: 10px 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(254, 254, 255);
+    z-index: 1;
+}
+
+#logo-span{
+    display: inline-block;
+    padding: 15px;
+}
+#logo{
+    width: 200px;
+}
+
+.nav-list{
+    list-style: none;
+    display: inline;
+}
+.items{
+    float: left;
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.items:hover{
+    cursor: pointer;
+    color: #0092ff;
+  
+}
+
+.cta{
+    padding: 17px 30px;
+    border-radius: 35px;
+    background-color: #0092ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.cta:hover{
+    background-color: #0f4cf1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* section-hero */
+
+#hero{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    padding: 55px;
+    margin-top: 75pxs;
+    
+}
+
+.hero-content{
+    width: 450px;
+    
+}
+
+.hero-heading{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #091e3f;
+}
+
+.hero-heading, .hero-para, .hero-btn{
+    margin: 10px;
+}
+
+.hero-btn{
+    margin-top: 25px;
+}
+
+.hero-para{
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-style: inherit;  
+}
+
+.hero-img{
+    width: 500px;
+    background-image: url(https://www.rakacreative.com/wp-content/uploads/2019/03/Raka-blog-how-long-does-animation-take-1480x550.png);
+    background-size: cover ;
+    background-position: center center;    
+}                                                       
+.info-img{                   
+       width: 400px;            
+       background-image: url(https://www.sendinblue.com/wp-content/uploads/2021/10/Rating-awards-SS.png);
+       background-size: cover;                          
+       background-position: center center;   
+}                                                                                        
+.title-img{
+      width: 90px;
+      position: relative;
+      top: -50px;
+      left: 530px;
+      background-image: url(https://www.kindpng.com/picc/m/138-1383789_free-transparent-png-web-buttons-round-3d-round.png);
+      background-size: cover;
+      background-position: center center;
+}
+.feature-div{
+    background-color: #044a75;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    padding: 55px;
+}
+.features-para, .features-head{
+    color: #fffffa;
+    margin: 10px;
+}
+
+.features{
+    display: inline-block;
+    width: 300px;
+}
+
+.line{
+    margin-top: 80px;
+   
+    border: 1px solid black;
+}                    
+#back{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    padding: 55px;
+    margin-top: 10px;
+}
+.back-heading{
+    font-size: 55px;
+    font-weight: bolder;
+    color: #091e3f;
+}
+
+.back-heading, .back-para{
+    margin: 10px;
+    position: relative;
+    top: 30px;    
+    left: 160px;
+}
+
+.back-para{
+    letter-spacing: 1px;
+    line-height: 25px;
+    position: relative;
+    top: 100px;
+    left: -380px; 
+}
+.stars{
+    color: #e6ff08;
+}
+
+
+    .feature-section{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        word-spacing: 3px;
+   
+    }
+    
+    
+    #box-1 > h1{
+        text-align: right;
+    }
+    
+    .features > div{
+        margin: 30px;
+    }
+    
+    .fab, .fas{
+        margin-right: 12px;
+        color: #044a75;
+    }
+    
+    #box-1 > h1 {
+        text-align: right;
+        margin-top: 25px;
+    
+    }
+    .features-btn{
+       
+        display: inline;
+        margin: auto;
+}
+.btn-span{
+    display: flex;
+    align-items: center;
+}
+.shield-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#shield-1{
+    height: 300px;
+    width: 250px;
+    background-image: url(https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/shield.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+}
+
+#shield-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
+ 
+}
+
+.partners{
+    height: 80px;
+    width: auto;
+    display: inline-block;
+    background-image: url(images/partners.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shield-section a{
+    color: rgb(3, 111, 184);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#shield-2 p, .grid-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #083958;
+}
+
+.partners{
+    margin-bottom: 25px;;
+}
+
+
+.grid-section{
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 280px 280px 280px 280px;
+    float: right;
+    background-color: #044a75;
+    width: 89%;
+}
+
+.boxes{
+    
+    background-color: #044a75;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes p{
+    color: white;
+}
+
+#div-5, #div-6{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center ;
+}
+
+.m{
+    font-size: 30px;
+    color: white;
+}
+
+
+.divs{
+    margin: 20px;
+}
+
+#div-4{
+    background-color: #166da2;
+}
+#div-7{
+    background-color: #065687;
+}
+
+#div-1, #div-5{
+    padding-left: 100px;
+}
+
+
+.customer-section{
+    clear: both;
+    background-color: #ecfd02;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    position: relative;
+    top: -80px;
+    z-index: -2;
+    margin-right: 70px;
+}
+
+
+#customer-img{
+    background-image: url(https://www.sendinblue.com/wp-content/uploads/2020/03/Edwin_Aplha_Full_Res_B-@1x.png);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 220px;
+    height: 380px;
+    position: relative;
+    left: 80px;
+}
+
+.customer-head{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.customer-p{
+    width: 400px;
+    font-size: 22px;
+    line-height: 31px;
+    margin-top: 41px;
+}
+    
+.second-head{
+    font-size: 45px;
+    
+}
+
+.img2{
+    background-image: url(https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/why/start-illu.jpg);
+}
+.hero-content{
+         position: relative;
+         top: 60px;
+         
+}
+
+#hero2{
+    background-color: #fdd5e6;
+    margin-top: -125px;
+    display: flex;
+    justify-content:space-evenly;
+    height: 450px;
+}
+.footer-ico{
+    font-size: 30px;
+}
+#footer-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px; 
+}
+
+.yt{
+    color: #ff0000;
+}
+
+.fb{
+    color: #4460a0;
+}
+
+.twt{
+    color: #00aaec;
+}
+
+.lin{
+    color: #007ebb;
+}
+.ins{
+    color: #ef2e89;
+}
+
+
+#f2-1{
+    width: 400px;
+    display: flex;
+}
+.f2-1-img{
+    background-image: url(https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+    width: 480px;
+    display: inline-block;
+}
+.f2-1-con, .f2-1-img{
+    margin: 20px;
+}
+
+#f2-2{
+    display: inline-block;
+
+}
+
+.f2-li{
+    list-style: none;
+    margin: 10px;
+}
+#footer-2{
+    display: flex;
+    justify-content: center;
+}
+
+.f2-2-head{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.f2-boxes{
+    padding: 20px;
+    margin: 20px;
+}
+
+.cookie{
+    margin-top: 10px;
+}
+#logo-span{
+    background-color: white;
+}
+
+nav{
+    background-color: white;
+}
+
+.hero-content{
+    z-index: -1;
+}
